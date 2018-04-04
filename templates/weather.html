@@ -1,0 +1,35 @@
+
+{% for day in context['weather'].days %}
+<div class="centerpanel">
+        <div class="left-icon">
+            <img src="{{day.icon}}" width="50px" height="50px"/>
+        </div>
+        <div class="summary">
+            {{ day.summary }}
+        </div>
+</div>
+{% endfor %}
+
+
+<style type="text/css">
+.centerpanel {
+    width: 80%;
+    margin: 5px;
+    padding: 10px;
+}
+
+.left-icon {
+    width: 15%;
+    height: 50px;
+    vertical-align:middle;
+    float: left;
+}
+
+.summary {
+    margin-left: 15%;
+    vertical-align:middle;
+    height: 50px;
+}
+
+</style>
+
