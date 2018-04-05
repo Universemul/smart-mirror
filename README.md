@@ -1,8 +1,10 @@
-# Smart-Mirror
 Smart Mirror which can display news, weather, calendar events
 
+## Status 
+
+[![Build Status](https://travis-ci.org/Universemul/smart-mirror.svg?branch=master)](https://travis-ci.org/Universemul/smart-mirror)
+
 ## Installation and Updating
-### Code
 Clone the repository.
 
 ```
@@ -16,7 +18,7 @@ make sure you have `pip` installed before doing this
 (sudo) pip install -r requirements.txt
 ```
 
-### Add your api token
+## Add your api token
 
 ```
 vim settings.py
@@ -36,7 +38,7 @@ You can also customize some variables :
 
 Please check https://darksky.net/dev/docs for more informations
 
-#### Running
+## Running
 To run the application run the following command in this folder
 
 ```
