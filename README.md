@@ -1,4 +1,5 @@
-Smart Mirror which can display news, weather, calendar events
+Smart Mirror which can display news, weather, calendar events.
+Only Python 3.4+ are supported
 
 ## Status 
 
