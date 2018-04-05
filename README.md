@@ -22,7 +22,14 @@ make sure you have [pip] installed before doing this
 vim settings.py
 ```
 
-replace `WEATHER_API_KEY` with the token you got from forecast.io
+Replace `WEATHER_API_KEY` with the token you got from https://darksky.net
+You can also customize some variables :
+`WEATHER_API_KEY`
+`WEATHER_LANG`
+`WEATHER_LAT` and `WEATHER_LON`
+`WEATHER_UNITS`
+
+Please check https://darksky.net/dev/docs for more informations
 
 #### Running
 To run the application run the following command in this folder
