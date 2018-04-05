@@ -3,5 +3,5 @@ feedparser
 aiohttp
 asyncio
 requests
-socketIO-client
+flask-socketio
 eventlet
