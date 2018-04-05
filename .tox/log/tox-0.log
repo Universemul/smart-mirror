@@ -1,0 +1,4 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/Users/davidbarthelemy/.pyenv/versions/3.6.4/bin/python3.6', local('/Users/davidbarthelemy/Dev/Projects/smart-mirror/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/Users/davidbarthelemy/Dev/Projects/smart-mirror/.tox/dist')]
+
