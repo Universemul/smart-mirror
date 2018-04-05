@@ -1,4 +1,5 @@
 <!doctype html>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.4.2.min.js"></script>
 <div>
     <div id="first-div" style="float:right">
         {% include "weather.html" %} 
@@ -6,4 +7,14 @@
     <div id="second-div" style="float:left">
         {% include "day.html" %} 
     </div>
+    <div id='rss'></div>
 </div>
+
+<script type='text/javascript'>
+    setInterval(function(){  
+        $.get("rss", function(data, status){
+            var div = document.getElementById("rss");
+            div.innerHTML = data;
+        });
+    }, 3000);
+</script>
