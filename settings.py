@@ -12,3 +12,5 @@ LOCALE = "fr"
 
 APP_NAME = "Smart Mirror"
 
+RSS_FLUX = "https://www.numerama.com/feed/"
+

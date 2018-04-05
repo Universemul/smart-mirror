@@ -1,5 +1,4 @@
 # coding=utf-8
-
 from datetime import datetime, time
 
 icon_lookup = {
@@ -17,6 +16,9 @@ icon_lookup = {
     'tornado': "img/Tornado.png",    # tornado
     'hail': "img/Hail.png"  # hail
 }
+
+PERIODIC_RSS_TASK = 15 # in seconds
+
 
 def is_current_date(ts, now=datetime.now()):
     date = datetime.combine(datetime.fromtimestamp(ts), time.min)

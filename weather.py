@@ -34,7 +34,6 @@ class Weather(object):
     # region Methods
     def get_data(self):
         r = requests.get(self.base_url)
-        print r, self.base_url
         data = json.loads(r.text)
         self.days = [Day(x if not utils.is_current_date(x['time']) else data["currently"],
                          utils.is_current_date(x['time'])) for x in data["daily"]["data"]]
