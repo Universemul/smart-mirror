@@ -43,3 +43,5 @@ To run the application run the following command in this folder
 export FLASK_APP=main.py
 python -m flask run
 ```
+
+Open your browser and enter `http://127.0.0.1:5000/` on your address bar
